@@ -323,98 +323,27 @@ img .logo {
 }
 
 .slide-wrapper2 {
-  width: 3640px;
-  -webkit-animation: slide 20s ease infinite;
-  -moz-animation: slide 20s ease infinite;
-  -o-animation: slide 20s ease infinite;
-  animation: slide 20s ease infinite;
+  width: 1456px;
+  -webkit-animation: slide 15s ease infinite;
 }
 
 .slide2 {
-  justify-content: center;
-  align-items: center;
   float: left;
   height: 510px;
   width: 728px;
 }
 
-.slide2 .box {
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  border-style: solid;
-  border-color: rgb(112, 112, 233);
-  border-radius: 30px;
+.slide2:nth-child(1) {
+  background-image: url("../img/testi1.svg");
 }
 
-.slide2 p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  text-align: center;
-  color: rgb(102, 129, 26);
-}
-
-.slide2 h1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  text-align: center;
-  color: lightskyblue;
+.slide2:nth-child(2) {
+  background-image: url("../img/testi2.svg");
 }
 
 @-webkit-keyframes slide2 {
-  0%, 100% {margin-left: 0px;}
-  10% {margin-left: 0px;}
-  20% {margin-left: -728px;}
-  30% {margin-left: -728px;}
-  40% {margin-left: -1456px;}
-  50% {margin-left: -1456px;}
-  60% {margin-left: -2184px;}
-  70% {margin-left: -2184px;}
-  80% {margin-left: -2912px;}
-  90% {margin-left: -2912px;}
-}
-
-@-moz-keyframes slide2 {
-  0%, 100% {margin-left: 0px;}
-  10% {margin-left: 0px;}
-  20% {margin-left: -728px;}
-  30% {margin-left: -728px;}
-  40% {margin-left: -1456px;}
-  50% {margin-left: -1456px;}
-  60% {margin-left: -2184px;}
-  70% {margin-left: -2184px;}
-  80% {margin-left: -2912px;}
-  90% {margin-left: -2912px;}
-}
-
-@-o-keyframes slide2 {
-  0%, 100% {margin-left: 0px;}
-  10% {margin-left: 0px;}
-  20% {margin-left: -728px;}
-  30% {margin-left: -728px;}
-  40% {margin-left: -1456px;}
-  50% {margin-left: -1456px;}
-  60% {margin-left: -2184px;}
-  70% {margin-left: -2184px;}
-  80% {margin-left: -2912px;}
-  90% {margin-left: -2912px;}
-}
-
-@keyframes slide2 {
-  0%, 100% {margin-left: 0px;}
-  10% {margin-left: 0px;}
-  20% {margin-left: -728px;}
-  30% {margin-left: -728px;}
-  40% {margin-left: -1456px;}
-  50% {margin-left: -1456px;}
-  60% {margin-left: -2184px;}
-  70% {margin-left: -2184px;}
-  80% {margin-left: -2912px;}
-  90% {margin-left: -2912px;}
+  0% {margin-left: 0px;}
+  100% {margin-left: -728px;}
 }
 
 .hero2 {
